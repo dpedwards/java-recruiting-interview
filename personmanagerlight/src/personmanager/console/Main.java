@@ -92,7 +92,7 @@ public class Main {
 			}
 
 			else if (action.equalsIgnoreCase("q")) {
-				uiQuitApp(scanner, pm);
+				uiQuitApp(scanner);
 			}
 
 			else {
@@ -158,7 +158,7 @@ public class Main {
 	}
 
 	/**
-	 * 
+	 * uiRemovePerson() method to remove a single person in list by its id
 	 * @param scanner holds the text input
 	 * @param pm for person manager operations
 	 */
@@ -279,12 +279,11 @@ public class Main {
     }
 
 	/**
-	 * 
+	 * uiQuitApp() method to exit the console application
 	 * @param scanner holds the text input
-	 * @param pm for person manager operations
 	 * @throws FileNotFoundException 
 	 */
-	public static void uiQuitApp(Scanner scanner, PersonManager pm) {	
+	public static void uiQuitApp(Scanner scanner) {	
 		System.exit(0);
 	}
 
