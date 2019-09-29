@@ -244,7 +244,7 @@ public class Main {
 	 * @param pm for person manager operations
 	 */
 	public static void uiListAllPersonsBySex(Scanner scanner, PersonManager pm) {
-		System.out.println("Alle Personen nach Geschlecht männlich (M) oder weiblich (W) auswählen: ");   
+		System.out.println("Alle Personen nach Geschlecht männlich (M) oder weiblich (F) auswählen: ");   
 		String sexSelection = scanner.next();
 
 		List<Person> searchBySex = pm.sexList(sexSelection);
