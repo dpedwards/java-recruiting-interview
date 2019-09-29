@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+  <body>
+     <h1 th:text="${title}">Anwendungsname</h1>
+    <table>
+       <thead>
+         <tr>
+            <th>Start</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr th:each="timeEntry : ${timeEntries}">
+            <td th:text="${timeEntry.start}">01.01.2019 00:00:00</td>
+         </tr>
+       </tbody>
+    </table>
+  </body>
+</html>
