@@ -1,5 +1,7 @@
 package personmanager.console;
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.text.ParseException;
 import java.util.List;
 import java.util.Scanner;
@@ -32,8 +34,17 @@ public class Main {
 	public static void main(String[] args) throws ParseException {
 		PersonManager pm = new PersonManager();
 
+		
+		File tempFile = new File("Person.csv");
+		boolean fileExists = tempFile.exists();
+		
+		if (fileExists == true)
+		{
 		//Calls the readCsvFile() method
 		PersonFileHandler.readCsvFile(pm);
+		} else {
+			System.out.println("Datei Person.csv wurde noch nicht angelegt.");
+		}
 			
 		Scanner scanner = new Scanner(System.in);
 		while(true) {
@@ -173,6 +184,7 @@ public class Main {
 
 			if (control.equalsIgnoreCase("y")) {
 				pm.removePerson(id);
+				break;
 			}
 		}
 	}
