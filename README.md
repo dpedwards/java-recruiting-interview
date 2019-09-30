@@ -30,10 +30,13 @@ Demonstrating:
 ## 2) webapp Spring Boot App:
 
 Demonstrating:
+- [Docker](https://docs.docker.com/) usage by Dockerfile file in web app for containerization
+- [Maven](https://maven.apache.org/download.cgi) POM file configuration for dependency usage
+- [MongoDB](https://www.mongodb.com/download-center/community) database connection from web app
 - [Spring Tool Suite (STS)](https://spring.io/tools3/sts/all) usage
 - [Thymeleaf](https://www.thymeleaf.org/) rendering engine
-- [MongoDB](https://www.mongodb.com/download-center/community) database connection from web app
-- [Docker](https://docs.docker.com/) usage by Dockerfile file in web app for containerization
+
+
 
 ### Screenshot
 ![](webapp-spring/screenshot01.png)
@@ -54,16 +57,6 @@ Demonstrating:
 - [Flapdoodle Embedded MongoDB](https://mvnrepository.com/artifact/de.flapdoodle.embed/de.flapdoodle.embed.mongo) v2.1.x
 - [Spring Web](https://mvnrepository.com/artifact/org.springframework/spring-web) v2.1x
 - [Spring Boot Maven Plugin](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-maven-plugin) v2.1.x
-
-### Pull Requests
-
-When submitting a pull request:
-
-1. Clone the repo.
-2. Create a branch off of `master` and give it a meaningful name (e.g. `my-awesome-new-feature`).
-3. Open a pull request on GitHub and describe the feature or fix.
-
-project documentation and demo pages can be found in the [`/docs`](docs) if submitting improvements, typo corrections, etc.
 
 ---
 
