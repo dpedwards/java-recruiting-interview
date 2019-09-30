@@ -6,7 +6,8 @@ Demos for recruiting interview
 # Demo Projects
 
 - personmanagerlight
-- webapp 
+- webapp-spring 
+- webservice-springmvc 
 
 ## 1) personmanagerlight Console App:
 
