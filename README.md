@@ -83,7 +83,7 @@ Demonstrating:
 
 Demonstrating:
 - [H2](https://www.springboottutorial.com/spring-boot-and-h2-in-memory-database) in-memory database for webservice 
-- (JUnit 5 Test](https://junit.org/junit5/)
+- [JUnit 5 Test](https://junit.org/junit5/)
 - Password reset and Email verification features
 - [Maven](https://maven.apache.org/download.cgi) POM file configuration for dependency usage
 - [MySQL](https://www.mysql.com/de/downloads/) database connection for webservice
