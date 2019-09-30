@@ -38,6 +38,7 @@ Demonstrating:
 [![JUnit](https://img.shields.io/badge/JUnit-%204-orange.svg)](https://junit.org/junit4/)
 [![Docker](https://img.shields.io/badge/Docker-lightblue.svg)](https://www.docker.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen.svg)](https://www.mongodb.com/de)
+[![Tomcat](https://img.shields.io/badge/Tomcat-black.svg)](http://tomcat.apache.org/)
 
 Demonstrating:
 - [Docker](https://docs.docker.com/) usage by Dockerfile file in web app for containerization
@@ -77,7 +78,8 @@ Demonstrating:
 [![Maven](https://img.shields.io/badge/Maven-%202.1.x-grey.svg)](https://maven.apache.org/)
 [![JUnit](https://img.shields.io/badge/JUnit-%205-orange.svg)](https://junit.org/junit5/)
 [![Swagger](https://img.shields.io/badge/Swagger-darkgreen.svg)](https://swagger.io/)
-[![MySQL](https://img.shields.io/badge/MySQL-yellow.svg)]()
+[![MySQL](https://img.shields.io/badge/MySQL-yellow.svg)](https://www.mysql.com/de/)
+[![Tomcat](https://img.shields.io/badge/Tomcat-black.svg)](http://tomcat.apache.org/)
 
 Demonstrating:
 - [H2](https://www.springboottutorial.com/spring-boot-and-h2-in-memory-database) in-memory database for webservice 
